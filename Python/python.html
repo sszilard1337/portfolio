@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólió - Bogdán-Bordi Szilárd - Python</title>
+</head>
+<body>
+    <canvas id="canvas" class="bg-[#232323]"></canvas>  
+    <script src="bg.js" type="text/JavaScript"></script>
+    <header>
+        <nav role="tablist" class="tabs justify-center items-center mt-3 p-5">
+            <a href="../Html/html.html" role="tab" class="tab text-white transition duration-500 hover:scale-150 text-xl">Html</a>
+            <a href="../Css/css.html" role="tab" class="tab text-white transition duration-500 hover:scale-150 text-xl">Css</a>
+            <a href="../index.html" role="tab" class="tab text-white scale-125 font-bold transition duration-500 hover:scale-150 text-xl">Főoldal</a>
+            <a href="../Cs/cs.html" role="tab" class="tab text-white transition duration-500 hover:scale-150 text-xl">C#</a>
+            <a role="tab" class="tab text-white tab-active text-xl">Python</a>
+        </nav>
+    </header>
+    <main class="min-h-screen">
+        <div class="divider text-white font-bold">Python</div>
+        <div class="flex justify-center">
+            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 w-1/2">
+                <p class="text-white">A python-t külön tanultam, nem suliban. Először több órás youtube tutorialokat néztem, amik nem segítettek sokat, de legalább megragadtam magának a programozásnak a működését, mert a python tanulása volt az első kapcsolatom a programozással</p>
+                <p class="text-white mt-3">Körülbelül másfél évig tanultam, magamtól, és logischoolban is, ami sok segítség lett volna, de mégtöbb volt, mivel a tanárom nem a hagyományos tantervvel ment, hanem egy gyorsabb és hatékonyabbal, ezért tudásom szerint olyan mintha 3 évig tanultam volna ott körülbelül. Ezért nagyon hálás vagyok neki.</p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 w-1/2">
+                <p class="text-white">Pythonnál is hasonló feladatokat oldottunk meg mint amit mostanában C#-nál.</p>
+                <p class="text-white">Itt van egy egyszerűbb, ami megkeresi egy adott intervallukmban a páros számok összegét:</p>
+                <pre><code class="text-white">
+                    elso = int(input("Az intervallum also végpontja: "))
+                    masodik = int(input("Az intervallum felső végpontja: "))
+                    osszeg = 0
+                    for i in range(elso,masodik+1):
+                        if i % 2 == 0:
+                            osszeg += i
+
+                    print(osszeg)
+                </code></pre>
+            </div>
+        </div>
+    </main>
+    <footer class="footer items-center p-4 outline outline-1 text-white bg-transparent">
+        <p>Copyright © 2024 - All rights reserved - fake ass copyright</p> 
+        <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <a href="https://fent.shop" class="transition duration-500 hover:scale-125">Project site - fent.shop</a>
+        </nav>
+      </footer>
+</body>
+
+</html>
