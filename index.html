@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Főoldal</title>
+</head>
+<body>
+    <canvas id="canvas" class="bg-[#232323]"></canvas>  
+    <script src="bg.js" type="text/JavaScript"></script>
+    <header>
+        <nav role="tablist" class="tabs justify-center items-center mt-3 p-5">
+            <a href="Html/html.html" role="tab" class="tab text-white transition duration-500 hover:scale-150 text-xl">Html</a>
+            <a href="Css/css.html" role="tab" class="tab text-white transition duration-500 hover:scale-150 text-xl">Css</a>
+            <a role="tab" class="tab text-white scale-125 font-bold tab-active text-xl">Főoldal</a>
+            <a href="Cs/cs.html" role="tab" class="tab text-white transition duration-500 hover:scale-150 text-xl">C#</a>
+            <a href="Python/python.html" role="tab" class="tab text-white transition duration-500 hover:scale-150 text-xl">Python</a>
+        </nav>
+    </header>
+    <main class="flex items-center justify-center min-h-screen">
+        <div class="card shadow-2xl outline outline-1 outline-white items-center p-4 pt-0 m-2 mt-0 w-4/6 bg-[#232322]">
+            <article>
+                <div class="card-body">
+                    <h2 class="card-title justify-center text-white">Bemutatkozás</h2>
+                    <p class="text-wrap text-white">Üdvözöllek a személyes weboldalamon! Az elmúlt év során izgalmas utazásra indultam a programozás világában, és örömmel osztom meg veletek, hogy milyen új készségeket sajátítottam el ebben az időszakban. Az alábbiakban bemutatom azokat a technológiákat és programozási nyelveket, amelyeket megtanultam: HTML, C#, Python és CSS. Az év elején belevetettem magam a HTML (HyperText Markup Language) tanulásába, amely a weboldalak alapvető szerkezetét biztosítja. Megtanultam, hogyan építsek fel jól strukturált weboldalakat, hogyan használjam a különféle HTML elemeket, mint például a fejlécek, bekezdések, listák és linkek. Külön figyelmet fordítottam az elérhetőségre és a szemantikus HTML használatára, hogy a weboldalak mindenkinek hozzáférhetőek legyenek. A HTML után a C# (C-Sharp) programozási nyelvvel ismerkedtem meg, amelyet főként a Microsoft fejlesztett. A C# megtanítása során különös hangsúlyt fektettem az objektumorientált programozásra (OOP), ami lehetővé tette számomra, hogy komplex, skálázható alkalmazásokat fejlesszek. Gyakorlati projekteken keresztül mélyítettem el tudásomat, például egyszerű játékok és adatkezelő rendszerek készítésével. Az év közepén a Python nyelv került a figyelmem középpontjába. A Python sokoldalúsága lenyűgöző: könnyen tanulható, mégis erőteljes eszköz adatfeldolgozáshoz, webfejlesztéshez és akár mesterséges intelligencia projektekhez is. Megtanultam, hogyan használjam a Python könyvtárakat, mint például a Pandas és a NumPy az adatelemzéshez, valamint a Django keretrendszert webalkalmazások fejlesztéséhez. A weboldalak megjelenéséért a CSS (Cascading Style Sheets) felelős, ezért elengedhetetlennek tartottam ennek a technológiának az elsajátítását is. A CSS segítségével megtanultam, hogyan tegyem vonzóbbá és felhasználóbaráttá a weboldalaimat. Különösen élveztem a reszponzív dizájn és az animációk készítését, amelyek segítségével a weboldalak minden eszközön jól mutatnak.</p>
+                    <button class="btn outline outline-1 w-min h-min bg-[#1B1B1B] hover:bg-[#4D4D4D] text-white absolute left-3 top-3" onclick="my_modal_3.showModal()">AI</button>
+                    <dialog id="my_modal_3" class="modal">
+                      <div class="modal-box bg-[#232323] outline outline-1 outline-white">
+                        <h3 class="font-bold text-lg text-white">Ez a szöveg AI-al lett generálva ezzel a szöveggel:</h3>
+                        <p class="pt-4   pb-0 text-white">Írj egy 1100-1200 karakteres bemutatkozó szöveget egy személyes website-ra amin az azévi tanultjaimról beszélek(html, c#, python, css)</p>
+                        <div class="modal-action">
+                          <form method="dialog">
+                            <button class="btn text-white btn-ghost outline outline-1">Bezárás</button>
+                          </form>
+                        </div>
+                    </div>
+                      </div>
+                    </dialog>
+                </div>
+            </article>
+          </div>
+    </main>
+    <footer class="footer items-center p-4 outline outline-1 text-white bg-transparent">
+        <p>Copyright © 2024 - All rights reserved - fake ass copyright</p> 
+        <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <a href="https://fent.shop" class="transition duration-500 hover:scale-125">Project site - fent.shop</a>
+        </nav>
+      </footer>
+</body>
+
+</html>
