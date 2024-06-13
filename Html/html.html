@@ -23,13 +23,13 @@
     <main class="min-h-screen">
         <div class="divider text-white font-bold">HTML</div>
         <div class="flex justify-center">
-            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 w-1/2">
+            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 md:w-1/2 w-96">
                 <p class="text-white">A css-t html-el együtt kezdtük el tanulni, és szintén az alapokkal kezdtünk.</p>
                 <p class="text-white mt-3">Az alapokkal kezdtünk: Első és legfontosabb html tagek, fontossági sorrendben. A tagek megtanulása után a tanár úr feladatokkal segített könnyebbé tenni a használatukat, és a véglegesen ezzel a projekttel lehetőleg rutinná tenni.</p>
             </div>
         </div>
         <div class="flex justify-center">
-            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 w-1/2">
+            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 md:w-1/2 w-96">
                 <p class="text-white">Itt van pár fontos tag amit vettünk: (Nem fontossági sorrendben, lehetséges, hogy kimaradtak fontos tagek)</p>
                 <ul class="list-disc text-white ml-5">
                     <li class="mt-3">html - A dokumentum gyökereleme</li>
@@ -63,9 +63,9 @@
             </div>
         </div>
         <div class="flex justify-center p-5 m-4">
-            <button class="btn outline outline-1 bg-[#1B1B1B] hover:bg-[#4D4D4D] text-white" onclick="my_modal_2.showModal()">Kattints, hogy lásd az első rendes oldalt amit az évben készítettem, egy projekt hubot</button>
+            <button class="btn outline outline-1 bg-[#1B1B1B] hover:bg-[#4D4D4D] text-white w-fit" onclick="my_modal_2.showModal()">Kattints, hogy lásd az első rendes oldalt amit az évben készítettem, egy projekt hubot</button>
             <dialog id="my_modal_2" class="modal">
-              <div class="modal-box bg-[#232323] outline outline-1 outline-white max-w-none w-fit h-max-none h-fit">
+              <div class="modal-box bg-[#232323] outline outline-1 outline-white md:max-w-none md:max-h-none max-w-screen w-fit h-fit max-h-screen">
                 <iframe class="m-10 mt-3" src="https://fent.shop/" width="800" height="600" title="projekt hub"></iframe>
                 <div class="modal-action">
                     <form method="dialog">

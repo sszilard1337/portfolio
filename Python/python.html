@@ -23,25 +23,27 @@
     <main class="min-h-screen">
         <div class="divider text-white font-bold">Python</div>
         <div class="flex justify-center">
-            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 w-1/2">
+            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 md:w-1/2 w-96">
                 <p class="text-white">A python-t külön tanultam, nem suliban. Először több órás youtube tutorialokat néztem, amik nem segítettek sokat, de legalább megragadtam magának a programozásnak a működését, mert a python tanulása volt az első kapcsolatom a programozással</p>
                 <p class="text-white mt-3">Körülbelül másfél évig tanultam, magamtól, és logischoolban is, ami sok segítség lett volna, de mégtöbb volt, mivel a tanárom nem a hagyományos tantervvel ment, hanem egy gyorsabb és hatékonyabbal, ezért tudásom szerint olyan mintha 3 évig tanultam volna ott körülbelül. Ezért nagyon hálás vagyok neki.</p>
             </div>
         </div>
         <div class="flex justify-center">
-            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 w-1/2">
+            <div class="card outline outline-1 outline-white bg-[#232320] p-3 m-4 md:w-1/2 w-96 overflow-hidden">
                 <p class="text-white">Pythonnál is hasonló feladatokat oldottunk meg mint amit mostanában C#-nál.</p>
                 <p class="text-white">Itt van egy egyszerűbb, ami megkeresi egy adott intervallukmban a páros számok összegét:</p>
-                <pre><code class="text-white">
-                    elso = int(input("Az intervallum also végpontja: "))
-                    masodik = int(input("Az intervallum felső végpontja: "))
-                    osszeg = 0
-                    for i in range(elso,masodik+1):
-                        if i % 2 == 0:
-                            osszeg += i
-
-                    print(osszeg)
-                </code></pre>
+                <code>
+                    <pre class="text-white overflow-x-auto">
+                        elso = int(input("Az intervallum also végpontja: "))
+                        masodik = int(input("Az intervallum felső végpontja: "))
+                        osszeg = 0
+                        for i in range(elso,masodik+1):
+                            if i % 2 == 0:
+                                osszeg += i
+    
+                        print(osszeg)
+                    </pre>
+                </code>
             </div>
         </div>
     </main>
